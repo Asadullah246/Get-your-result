@@ -31,3 +31,37 @@ function getInputValue(){
    }
 
 }
+
+// how to find duplicate numbers in a array 
+
+// function removedDuplicate(allNumbers){
+//    let singleNames=[];
+//    let dupNames=[];
+//    let pureDuplicate=[];
+//    for(const element of allNumbers){
+//       if(singleNames.indexOf(element)==-1){
+//          singleNames.push(element)
+//       }
+//       else{
+         
+//          dupNames.push(element)
+//       }
+//    }
+
+//    for(const allElement of dupNames){
+//       if(pureDuplicate.indexOf(allElement)==-1){
+//          pureDuplicate.push(allElement)
+//       }
+//    }
+
+//    // return newArr;
+//    return pureDuplicate;
+   
+   
+// }
+
+
+
+let inputNumbers=[23, 45, 49, 23, 67, 45, 78, 34 , 45, 78, 67, 78];
+let numbers= removedDuplicate(inputNumbers);
+console.log(numbers);
